@@ -57,10 +57,8 @@ select * from state_info where state_id between 1 and 10 and economic_output bet
 
 select * from state_info where Industries_count in (70, 100, 150);
 
-select * from state_info where economic_output not in (40000000000, 10000000000, 70000000000); 
-
-
-
+select * from state_info where economic_output not in (40000000000, 10000000000, 70000000000);
+select * from state_info;
 
 
 
